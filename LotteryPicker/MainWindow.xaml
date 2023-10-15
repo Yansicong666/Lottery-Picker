@@ -1,0 +1,22 @@
+﻿<Window x:Class="LotteryPicker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LotteryPicker"
+        mc:Ignorable="d"
+        Title="Lottery Picker" Height="241" Width="343">
+    <Grid>
+        <Label Content="Three number lottery:" HorizontalAlignment="Left" Margin="26,18,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="threeNumText" HorizontalAlignment="Left" Margin="177,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextAlignment="Center" IsReadOnly="True"/>
+        <Label Content="Four number lottery:" HorizontalAlignment="Left" Margin="26,53,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="fourNumText" HorizontalAlignment="Left" Margin="177,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextAlignment="Center" IsReadOnly="True"/>
+        <Label Content="Five number lottery:" HorizontalAlignment="Left" Margin="26,87,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="fiveNumText" HorizontalAlignment="Left" Margin="177,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148" TextAlignment="Center" IsReadOnly="True"/>
+        <Label Content="Five number + 1 lottery:" HorizontalAlignment="Left" Margin="26,121,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="fiveNumPlusText" HorizontalAlignment="Left" Margin="177,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" TextAlignment="Center" IsReadOnly="True"/>
+        <TextBox x:Name="oneNumText" HorizontalAlignment="Left" Margin="294,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="31" TextAlignment="Center" IsReadOnly="True" Foreground="Red"/>
+        <Button x:Name="generateBTN" Content="Generate" HorizontalAlignment="Left" Margin="235,168,0,0" VerticalAlignment="Top" Width="62" Click="generateBTN_Click"/>
+
+    </Grid>
+</Window>
